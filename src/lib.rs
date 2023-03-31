@@ -21,6 +21,10 @@
 // TODO: fix these
 // #![warn(unaligned_references)]
 
+#[cfg(test)]
+#[macro_use]
+extern crate std;
+
 #[macro_use]
 extern crate alloc;
 extern crate cbitset;
